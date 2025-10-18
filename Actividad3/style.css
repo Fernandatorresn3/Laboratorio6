@@ -1,0 +1,52 @@
+body
+{
+    font-family: arial,helvetica;
+    background: #e5dcdc;
+}
+
+.menu-nav
+{
+   list-style: none;
+   padding: 0;
+   background-color: grey;
+   width: 90%;
+   max-width: 1000px;
+   margin: auto;
+
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.menu-nav li a
+{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+
+.menu-nav li 
+{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu-nav li a:hover
+{
+background-color: rgb(152, 215, 126);
+}
+
+h1
+{
+    text-align: center;
+}
+
+img 
+{
+width:35%;
+height:35%;
+display: block;
+margin: 0 auto;
+}

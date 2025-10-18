@@ -12,7 +12,7 @@ body
    width: 90%;
    max-width: 1000px;
    margin: auto;
-   border-radius: 12px;
+
    display: flex;
    justify-content: space-around;
    
@@ -38,15 +38,35 @@ body
 background-color: rgb(152, 215, 126);
 }
 
-h1
+.menu-nav a.active 
+{
+    background-color: rgb(152, 215, 126);
+    font-weight: bold;
+    color: black;
+}
+
+.tarjeta-custom
+{
+    width: 30%;
+    min-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px papayawhip;
+}
+
+.imt1
+{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    height: 180px;
+}
+
+h4
 {
     text-align: center;
 }
 
-img 
+h5
 {
-width:35%;
-height:35%;
-display: block;
-margin: 0 auto;
+    text-align: center;
 }

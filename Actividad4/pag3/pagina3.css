@@ -12,7 +12,7 @@ body
    width: 90%;
    max-width: 1000px;
    margin: auto;
-   border-radius: 12px;
+
    display: flex;
    justify-content: space-around;
    
@@ -38,15 +38,9 @@ body
 background-color: rgb(152, 215, 126);
 }
 
-h1
+.menu-nav a.active 
 {
-    text-align: center;
-}
-
-img 
-{
-width:35%;
-height:35%;
-display: block;
-margin: 0 auto;
+    background-color: rgb(152, 215, 126);
+    font-weight: bold;
+    color: black;
 }

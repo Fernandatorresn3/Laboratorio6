@@ -12,7 +12,7 @@ body
    width: 90%;
    max-width: 1000px;
    margin: auto;
-
+   border-radius: 12px;
    display: flex;
    justify-content: space-around;
    
